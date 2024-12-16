@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Workshop</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login-section" id="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Landing Page -->
+    <section class="landing">
+        <div class="overlay">
+            <h1>Welcome to the Web Design Workshop</h1>
+            <p>Learn how to create stunning websites with us.</p>
+            <button onclick="scrollToLogin()">Join Now</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About the Workshop</h2>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore veniam dolores, consectetur hic iste voluptatum vitae ipsum eveniet, atque minima beatae at corrupti saepe pariatur perferendis nihil..</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Hands-on practice</li>
+            <li>Expert mentorship</li>
+            <li>Access to exclusive resources</li>
+        </ul>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login-section">
+        <h2>Login Here !</h2>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Web Design Workshop. All rights reserved.</p>
+        <ul class="social-icons">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

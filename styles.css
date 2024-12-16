@@ -1,0 +1,133 @@
+ /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    margin: 0 1rem;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+/* Landing Page */
+.landing {
+    height: 100vh;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    position: relative;
+    color: #fff;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.overlay button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #00bcd4;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.overlay button:hover {
+    background-color: #008c9e;
+}
+
+/* Sections */
+section {
+    padding: 2rem 4rem;
+    text-align: center;
+}
+section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+/* Login Section */
+#login-section {
+    background-color: #f4f4f4;
+    padding: 4rem;
+}
+#login-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#login-section input {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+#login-section button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.social-icons li {
+    margin: 0 0.5rem;
+}
+.social-icons a {
+    color: #00bcd4;
+    text-decoration: none;
+}
